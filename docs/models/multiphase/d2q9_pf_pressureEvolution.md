@@ -5,8 +5,8 @@ d2q9_pf_pressureEvolution
 
 ## Details
 [Model description files](Model description) files for this model:
-[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at a97178f)/src/d2q9_pf_pressureEvolution/Dynamics.c.Rt)
-[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at a97178f)/src/d2q9_pf_pressureEvolution/Dynamics.R)
+[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 8afe856)/src/d2q9_pf_pressureEvolution/Dynamics.c.Rt)
+[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 8afe856)/src/d2q9_pf_pressureEvolution/Dynamics.R)
 
 ### [Zonal Settings](Settings)
 
