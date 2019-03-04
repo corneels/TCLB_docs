@@ -1,12 +1,12 @@
 
 
 ## Description
-wave
+advection_diffusion2D
 
 ## Details
 [Model description files](Model description) files for this model:
-[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/wave/Dynamics.c.Rt)
-[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/wave/Dynamics.R)
+[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 9bd743f)/src/advection_diffusion2D/Dynamics.c.Rt)
+[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 9bd743f)/src/advection_diffusion2D/Dynamics.R)
 
 ### [Zonal Settings](Settings)
 
@@ -19,15 +19,16 @@ wave
 
 | Name | Derived | Comment |
 | --- | --- | --- |
-|`Speed`||Speed|
-|`Viscosity`||Viscosity|
+|`diff_coeff`||diff_coeff|
+|`ux`||free stream velocity|
+|`uy`||free stream velocity|
 |`Threshold`||Parameters threshold|
 
 ### [Exported Quantities](Quantities) (VTK, etc)
 
 | Name | [Unit](Units) | Comment |
 | --- | --- | --- |
-|`U`|`1`|U|
+|`Phi`|`1`|Phi|
 
 #### [Exported Global Integrals](Globals) (CSV, etc)
 
@@ -49,8 +50,7 @@ wave
 
 | Name | Access pattern | Comment |
 | --- | --- | --- |
-|`u`|![stencil](/images/st_a1n1n1p0p1p1p0.png)|u|
-|`v`|![stencil](/images/st_a1n1n1p0p1p1p0.png)|v|
+|`phi`|![stencil](/images/st_a1n1n1p0p1p1p0.png)|phi|
 
 ### [Densities - default accessors](Densities)
 
@@ -61,8 +61,8 @@ wave
 
 | Name | Main procedure | Preloaded densities | Pushed fields |
 | --- | --- | --- | --- |
-|BaseIteration|Run|_none_|u, v|
-|BaseInit|Init|_none_|u, v|
+|BaseIteration|Run|_none_|phi|
+|BaseInit|Init|_none_|phi|
 
 
 ### [Actions](Stages)

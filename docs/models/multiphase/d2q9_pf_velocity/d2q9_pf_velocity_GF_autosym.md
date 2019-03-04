@@ -5,8 +5,8 @@ The 'd2q9_pf_velocity' model is a multiphase 2D(planar) lattice Boltzmann model 
 
 ## Details
 [Model description files](Model description) files for this model:
-[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/d2q9_pf_velocity_GF_autosym/Dynamics.c.Rt)
-[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/d2q9_pf_velocity_GF_autosym/Dynamics.R)
+[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 9bd743f)/src/d2q9_pf_velocity_GF_autosym/Dynamics.c.Rt)
+[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 9bd743f)/src/d2q9_pf_velocity_GF_autosym/Dynamics.R)
 
 ### [Zonal Settings](Settings)
 
