@@ -5,8 +5,8 @@ d3q27_cumulant_IB_SMAG
 
 ## Details
 [Model description files](Model description) files for this model:
-[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/d3q27_cumulant_IB_SMAG/Dynamics.c.Rt)
-[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 7714130)/src/d3q27_cumulant_IB_SMAG/Dynamics.R)
+[Dynamics.c](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 21557e6)/src/d3q27_cumulant_IB_SMAG/Dynamics.c.Rt)
+[Dynamics.R](https://github.com/llaniewski/TCLB/blob/(HEAD detached at 21557e6)/src/d3q27_cumulant_IB_SMAG/Dynamics.R)
 
 ### [Zonal Settings](Settings)
 
