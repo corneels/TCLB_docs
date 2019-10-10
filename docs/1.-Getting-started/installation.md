@@ -23,7 +23,7 @@ In order to use TCLB solver, the following tools are required:
 * [numpy](http://www.numpy.org/) (if you want to use the integrated python interpreter)
 * [python](https://www.python.org/), [python](http://www.sympy.org/) 
 * [rPython](https://cran.r-project.org/package=rPython) (if you want to develop a model using python in place or R)
-* [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) (e.g. [OpenMPI](http://www.open-mpi.org
+* [MPI](https://en.wikipedia.org/wiki/Message_Passing_Interface) (e.g. [OpenMPI](http://www.open-mpi.org))
 
 Most of them can be installed using the script provided within the code(tools/install.sh):
 
