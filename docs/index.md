@@ -36,18 +36,18 @@ For a quick start, please refer to [1. Getting started](/1.-getting-sta
 
     Details the basics of getting involved with contributing to the TCLB project.
 
-- General Info
+* General Info
 
     Contains general information related to TCLB, including a list of publications that employ TCLB.
 
-- XML Reference
+* XML Reference
 
     An automatically generated reference of all XML elements available for usage in the TCLB configuration files.
 
-- Models
+* Models
 
     An automatically generated reference of all models currently available, including all relevant data for each.
 
-- Tutorials
+* Tutorials
 
     Provides several step-by-step tutorials on model development.
